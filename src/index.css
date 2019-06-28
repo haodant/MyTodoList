@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.date {
+  padding: 20px;
+  font-size: 1.5em;
+  display: block;
+  background-color: #FB966E;
+  font-weight: 700;
+}
+
+h1 {
+  color: #FB966E;
+}
+
+.addTodo {
+  margin-top: 5em;
+}

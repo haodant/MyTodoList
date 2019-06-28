@@ -21,7 +21,7 @@ class AddForm extends Component {
 
   render(){
     return(
-      <div>
+      <div className='addTodo'>
         <form onSubmit={this.handleSubmit}>
           <lable>Add new todo:</lable>
           <input type="text" onChange={this.handleChange} value={this.state.content} />
